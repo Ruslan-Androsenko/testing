@@ -13,6 +13,8 @@ class MySuite extends TestSuite
     {
         $suite = new MySuite("MyTest");
         $suite->addTestSuite(MyClassTest::class);
+        $suite->addTestSuite(MyClassOutputTest::class);
+        $suite->addTestSuite(MyClassPerformanceTest::class);
 
         return $suite;
     }

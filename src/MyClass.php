@@ -17,4 +17,10 @@ class MyClass
 
         return $x / $y;
     }
+
+    public function square($x)
+    {
+        sleep(2);
+        print $x * $x;
+    }
 }
