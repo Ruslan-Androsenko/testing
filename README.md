@@ -19,5 +19,5 @@ $ ./vendor/bin/phpunit tests --testdox
 ## Статья по которой создаем тесты 
 ### и прогоняем их в локальной среде
 
-Статья по которой изучаем тесты
-[[Ссылка на статью](https://google.com)]
+Getting Started with PHPUnit 9
+[[Ссылка на статью](https://phpunit.de/getting-started/phpunit-9.html)]
