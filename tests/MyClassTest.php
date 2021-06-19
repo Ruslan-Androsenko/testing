@@ -12,7 +12,7 @@ class MyClassTest extends TestCase
 
     protected function setUp(): void
     {
-        $this->fixture = new MyClass();
+        $this->fixture = $this->sharedFixture;
     }
 
     protected function tearDown(): void
