@@ -5,9 +5,21 @@ use Src\MyClass;
 
 class MyClassTest extends TestCase
 {
-    public function testPower()
+    /**
+     * @dataProvider providerPower
+     */
+    public function testPower($a, $b, $c)
     {
         $my = new MyClass();
-        $this->assertEquals(8, $my->power(2, 3));
+        $this->assertEquals($c, $my->power($a, $b));
+    }
+
+    public function providerPower()
+    {
+        return [
+            [2, 2, 4],
+            [2, 3, 9],
+            [3, 5, 243],
+        ];
     }
 }
