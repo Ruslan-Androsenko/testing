@@ -21,3 +21,6 @@ $ ./vendor/bin/phpunit tests --testdox
 
 Как тестировать приложения PHP с помощью PHPUnit
 [[Ссылка на статью](https://dvsemenov.ru/kak-testirovat-prilozheniya-php-s-pomoshhyu-phpunit/)]
+
+Документация на список методов для проверки результата во время тестирования
+[[1. Aserciones](https://phpunit.readthedocs.io/es/latest/assertions.html)]
