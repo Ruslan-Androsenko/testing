@@ -19,5 +19,5 @@ $ ./vendor/bin/phpunit tests --testdox
 ## Статья по которой создаем тесты 
 ### и прогоняем их в локальной среде
 
-Статья по которой изучаем тесты
-[[Ссылка на статью](https://google.com)]
+Модульное тестирование (Unit tests) с помощью PHPUnit
+[[Ссылка на статью](https://www.kobzarev.com/programming/phpunit/)]
