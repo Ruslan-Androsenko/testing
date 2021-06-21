@@ -14,6 +14,9 @@ $ ./vendor/bin/phpunit tests
 
 # Запуск тестов в режиме документации
 $ ./vendor/bin/phpunit tests --testdox
+
+# Запуск тестов с подробным описанием
+$ ./vendor/bin/phpunit tests --verbose
 ```
 
 ## Статья по которой создаем тесты 
